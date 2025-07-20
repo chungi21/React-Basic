@@ -1,26 +1,16 @@
-// 방법1
-// const Hello = function(){
-//     return <h1>Hello</h1>
-// }
-
-import World from "./World"
-
-// 방법2
-// const Hello = () => {
-//     return <h1>Hello</h1>
-// }
-
-// 방법3
-// export default function Hello() {
-//     return <h1>Hello</h1>
-// }
-
+import World from "./World";
+import styles from "./Hello.module.css";
 
 export default function Hello() {
     return (
-    <>
-        <h1>Hello</h1>
-        <World/>
-    </>
+        <>
+            <h1 style={{
+                color: 'red',
+                borderBottom: '3px solid blue',
+                marginBottom: '40px', 
+                opacity: 0.5
+            }}>Hello</h1>
+            <div className={styles.box}>Hello</div>
+        </>
     );
 }
