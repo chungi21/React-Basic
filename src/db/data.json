@@ -41,6 +41,20 @@
       "eng": "gun",
       "kor": "총",
       "isDone": false
+    },
+    {
+      "id": "6f36",
+      "day": "3",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false
+    },
+    {
+      "id": "6569",
+      "day": "2",
+      "eng": "talk",
+      "kor": "대화",
+      "isDone": false
     }
   ]
 }

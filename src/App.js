@@ -7,6 +7,7 @@ import Header from "./component/Header";
 import DayList from "./component/DayList";
 import Day from "./component/Day";
 import EmptyPage from './component/EmptyPage';
+import CreateWord from './component/CreateWord';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<DayList />} />
           <Route path="/day/:day" element={<Day />} />
+          <Route path="/create_word" element={<CreateWord />} />
           <Route path="*" element={<EmptyPage />} />
         </Routes>
       </div>
